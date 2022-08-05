@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background: #21222A;
+}
+
+nav {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+}
+
+.logo-flex {
+    display: flex;
+    align-items:center;
+}
+
+.nav-title-blue {
+    font-weight: 700;
+    font-size: 22.2535px;
+    line-height: 27px;
+    letter-spacing: -0.05em;    
+    color: #61DAFB;
+}
+
+.nav-title-white {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #DEEBF8;
+    margin-right: 1rem;
+}
+
+body {
+    background: #282D35;
+}
+
+main {    
+    padding: 60px 0 0 27px;    
+    background-image: url(images/reactjs-icon-2.png) ;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 47px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    margin-top: 60px;
+}
+
+ul {
+    margin-top: 45px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+li {
+    padding-block: 10px;
+}
+
+li::marker {
+    color: #61DAFB;
+    font-size: 1.5rem;
+}
+
